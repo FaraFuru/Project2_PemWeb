@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 13px;
+}
+
+.nama { 
+    background-color: blue;
+    color: yellow;
+}
+
+#nim {
+    color: blue;
+}
+
+p span.nama {
+    font-style: italic;
+}
+
+.teks2 span {
+    background-color: yellow;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+}
+
+p.teks2 {
+    text-align: right;
+}
