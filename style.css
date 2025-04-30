@@ -1,30 +1,42 @@
-
+/* Heading pertama */
 h1 {
-    font-size: 13px;
+    font-size: 13px; /* ukuran font 13px */
 }
 
-.nama { 
-    background-color: blue;
-    color: yellow;
+/* class "nama" yang ada di heading 2 */
+.nama {
+    background-color: blue; /* Warna background biru */
+    color: yellow; /* Warna font kuning */
 }
 
+/* id "nim" yang ada di heading 2 */
 #nim {
-    color: blue;
+    color: blue; /* Warna font biru */
 }
 
+/* Highlight "ipsum" di paragraf pertama yang udah dipisahin menggunakan span */
 p span.nama {
-    font-style: italic;
+    font-style: italic; /* Jenis teks miring */
 }
 
+/* Highlight "amet" di paragraf kedua yang udah dipisahin menggunakan span */
 .teks2 span {
-    background-color: yellow;
-    font-style: italic;
+    background-color: yellow; /* Warna background kuning */
+    font-style: italic; /* Jenis teks miring */
 }
 
+/* Membuat paragraf menjadi rata tengah */
 p {
     text-align: center;
 }
 
+/* Membuat hanya paragraf kedua menjadi rata kanan */
 p.teks2 {
     text-align: right;
+}
+
+/* Heading tiga  */
+h3 a {
+    color: black; /* Warna tulisan hitam */
+    text-decoration: none; /* Menghapus garis bawah pada link */
 }
